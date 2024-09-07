@@ -13,10 +13,10 @@ public class Area {
         do {
             System.out.println("What is the radius? ");
         }
-        while (!input.hasNextDouble()) {
+        while (!input.hasNextDouble());
+        do {
             System.out.println("Sorry, the radius must be a positive number!!!!!!!!!!");
             input.next();
-        }
         radius = input.nextDouble();
     } while (radius< 0);
 
